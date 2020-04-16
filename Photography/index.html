@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photography</title>
+		<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<header id="head">
+		<!-- slideshow -->
+	<div class="slideshow-container">
+  
+  <div class="mySlides fade">
+     <img src="images/bg.png" style="width:100%">
+     
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/4.jpg" style="width:100%">
+  </div>
+
+    <div class="mySlides fade">
+    <img src="images/bg2.jpg" style="width:100%">
+  </div>
+  
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+	</header>
+<div class="navbar">
+  <a href="index.html" class="active">Home</a>
+     <a href="Gallery.html">Gallery</a>
+  <a href="about.html">About</a>
+
+</div>
+
+
+<div id="ContainerQ">
+ 
+ 
+  <span>Destin Sparks</span>
+  <blockquote>
+    <p><i>&ldquo;Photography is the Story I fail to put into words.&rdquo; </i></p>
+  </blockquote>
+</div>
+
+
+
+
+
+
+
+
+	<!-- Customer Review -->
+
+<section>
+	<div id="boxG"> 
+		<div class="title">Reviews</div> 
+	</div>
+
+
+<div class="ContainerReview">
+
+  <div class="container left">
+    <div class="content">
+      <h2>Linda</h2>
+	<p>Highly recommended,Execellent! Legit professional for sure</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+     <h2>Joseph</h2>
+	<p>Professional, Quick to respond, and his work is fantastic!</p>
+    </div>
+  </div>
+
+
+<div class="container left">
+    <div class="content">
+      <h2>Michael</h2>
+	<p>Nice Service on my daughters Debut!</p>
+    </div>
+  </div>
+
+  <div class="container right">
+    <div class="content">
+     <h2>Bea</h2>
+	<p>Hope to work with you again soon!</p>
+    </div>
+  </div>
+
+
+</div>
+
+
+</section>
+
+
+<div id="boxG">
+
+
+<div class="title"> Featured Photo</div> </div>
+
+ <section id="images">
+       
+
+  <div class="content1">
+      <img src="images/4.jpg" alt="" style="width:100%">
+     
+    </div>
+ <div class="content1">
+      <img src="images/5.jpg" alt="" style="width:100%">
+     
+    </div>
+  <div class="content1">
+      <img src="images/bg2.jpg" alt="" style="width:100%">
+  </div>
+  <div class="content1">
+      <img src="images/2.jpg" alt="" style="width:100%">
+  </div>
+     		
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript">
+		var slideIndex = 0;
+carousel();
+
+
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+ setTimeout(carousel, 2000);
+}
+	</script>
+
+
+	
+</body>
+</html>

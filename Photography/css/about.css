@@ -1,0 +1,116 @@
+body{
+  margin: 0px;
+  background:#1D1F20;
+}
+.navbar {
+
+  background-color: #cccc00;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+
+/* Style the links inside the nav */
+.navbar a {
+  float:none; 
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+
+}
+
+
+
+.navbar a:hover {
+  background-color: black;
+  color:white;
+}
+
+
+.navbar a.active {
+  background-color: black;
+  color: white;
+}
+
+
+.wrapper{
+  margin-top: 10%;
+}
+
+
+.about{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.about .about_wrp{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 800px;
+  padding: 40px;
+border-bottom:#5e5e00 9px solid;
+  border-top:#cccc00 5px solid;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+}
+
+.about .about_wrp h3{
+  color:black;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.about .about_wrp p.role{
+  color: #ccc;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.about .about_wrp .about_img{
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 180px;
+  border-radius: 50%;
+  background: #cccc00;
+}
+
+.about .about_wrp .about_img img{
+  width: 180px;
+  height: 190px;
+  padding: 5px;
+}
+
+
+
+#boxes{
+  margin-top:20px;
+ 
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  color: white;
+  padding: 20px;
+  border-bottom:#5e5e00 9px solid;
+  border-top:#cccc00 5px solid;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+
